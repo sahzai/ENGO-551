@@ -8,7 +8,48 @@ background-color: antiquewhite;
 
 caption {
     color: red;
-    margin-left: 20px;
+    text-align: center;
+
+
+
+}
+
+p {
+
+    text-align: center;
+
+
+}
+
+#banner {
+
+max-height: 100%;
+max-width: 100%;
+height: auto;
+width: auto;
+
+
+}
+
+table, th, td {
+
+border: 1px solid black;
+
+
+
+}
+
+ol > li {
+
+    text-decoration: underline;
+
+
+}
+
+a:hover {
+    color:crimson;
+    
+
 
 
 
