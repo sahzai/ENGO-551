@@ -6,4 +6,56 @@ ol {
   color: green;
 }
 
+#override_header {
+  color: green;
+}
+
+.PG, .RG, .MG, .HG {
+  font: italic bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.HG {
+  color: black;
+  background-color: white;
+}
+
+.MG {
+  color: yellow;
+  background-color: darkgoldenrod;
+}
+
+.RG {
+  color: yellow;
+  background-color: black;
+}
+
+.PG {
+  color: gold;
+  background-color: silver;
+}
+
+* {
+  padding: 10px;
+}
+
+@media (min-width: 720px) {
+  #override_body {
+    background-color: white;
+    color: black;
+  }
+}
+@media (max-width: 719px) {
+  #override_body {
+    background-color: black;
+    color: white;
+  }
+}
+figure {
+  font-size: 18px;
+}
+figure ol ul {
+  color: red;
+}
+
 /*# sourceMappingURL=bundle.css.map */

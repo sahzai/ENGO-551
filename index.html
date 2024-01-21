@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
         
-
-        <link rel = "stylesheet_custom" href = "style.css">
+        <link rel = "stylesheet" href = "bundle.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        
         <title>Gunpla!</title>
     </head>
-    <body>
+    <body id="override_body">
+        
         <img class = "screen-only" id = "banner" src = "s-l1600.jpg"  alt = "RX-78-2 Perfect Grade">
+        <div class = "container">
+        <div class  ="row">
+            <div class = "col-sm"><a href = "index.html">Home Page!</a></div>
+            <div class = "col-sm"><a href = "https://www.reddit.com/r/Gunpla/">Gunpla Subreddit</a></div>
+            <div class = "col-sm"><a href = "https://bandai-hobby.net/global/index.html">Bandai Hobby Website!</a></div>
+        
+        </div>
+    </div>
         <p>Bandai's line of mecha model kits, Gunpla, that represent the various mecha from the universe of Mobile suit Gundam. Gunpla models are scale accurate reproductions of various giant robots.
-        Customization, detail work, there's alot that goes into this hobby! This site will explain the various model kits and some techniques to really make your models pop! those tehcniques are as follows</p>
+        Customization, detail work, there's alot that goes into this hobby! This site will explain the various model kits and some techniques to really make your models pop! those techniques are as follows</p>
+        <figure>
+            <figcaption>Quick Links</figcaption>
         <ol>
             <li><a href ="Cutting.HTML">Proper Cutting</a></li>
             <ul>
@@ -18,31 +29,64 @@
                 <li>Single vs Double bladed Nippers</li>
 
             </ul>
-            <li>Panel Lining</li>
-            <li>Decals</li>
-            <li>Touch Up Painting</li>
+            <li><a href ="lining.html">Panel Lining</a></li>
+            <li><a href ="decals.html">Decals</a></li>
+            <li><a href ="touchup.html">Touch Up Painting</a></li>
 
         </ol>
-        
+    </figure>
+    
         <p>Click a link to learn about the various techniques to make your gunpla shine</p>
+        <p>there are various things to consider when choosing what model kit is best for you, those are:</p>
+        <ul>
+            <li>Scale</li>
+            <li>Level of Detail</li>
+            <li>Stability (How well can it stand on its own? How well can it be posed?)</li>
+            <li>Price</li>
 
-        <table class = "table">
-            <caption> Different Model Kit Grades</caption>
-            <tr>
-              <th>Grade</th>
-              <th>Scale</th>
-              <th>Decsription</th>
-            </tr>
-            <tr>
-              <td>High Grade</td>
-              <td>1/144</td>
-              <td>the most widely available style of model kit, small in size but relatively cheap and with tons of options to choose from</td>
-            </tr>
-            <tr>
-              <td>Real Grade</td>
-              <td>1/144</td>
-              <td>While the same scale as high grades, Real Grades aim to show what the mecha would look like in more realistic proportions and details. these kits are known for their excessive amount of detail</td>
-            </tr>
+
+
+        </ul>
+        <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th id = "override_header" scope="col">Grade</th>
+                <th id = "override_header"scope="col">Scale</th>
+                <th id = "override_header"scope="col">Detail</th>
+                <th id = "override_header"scope="col">Stability</th>
+                <th id = "override_header"scope="col">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class = "HG" scope="row">HG</th>
+                <td>1/144</td>
+                <td>low</td>
+                <td>variable but generally low</td>
+                <td>lowest</td>
+              </tr>
+              <tr>
+                <th class = "MG" scope="row">MG</th>
+                <td>1/100</td>
+                <td>High</td>
+                <td>Excellent</td>
+                <td>2-3x the cost of an HG</td>
+              </tr>
+              <tr>
+                <th CLASS ="RG" scope="row">RG</th>
+                <td>1/144</td>
+                <td>Highest</td>
+                <td>variable but generally okay</td>
+                <td>1.5-2x the cost of an HG</td>
+              </tr>
+              <tr>
+                <th class = "PG" scope = "row">PG</th>
+                <td>1/60</td>
+                <td>Highest</td>
+                <td>Excellent, always comes with a stand</td>
+                <td>250-400 CAD</td>
+              </tr>
+            </tbody>
           </table>
     </body>
 </html>
